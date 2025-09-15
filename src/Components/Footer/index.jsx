@@ -1,6 +1,5 @@
 import React from 'react';
 import { Typography, Link, IconButton, Box, Stack } from '@mui/material';
-import { LinkedIn, Instagram } from '@mui/icons-material';
 
 import {
   FooterContainer,
@@ -12,12 +11,12 @@ import {
   PartnershipText
 } from './styles';
 
-import NiloLogo from './logo.png'; 
-import OsButtons from './os.png'; 
-import InstagramIcon from './instagram.svg';
-import LinkedinIcon from './linkedin.svg';
+import NiloLogo from './assets/logo.png'; 
+import OsButtons from './assets/os.png'; 
+import InstagramIcon from './assets/instagram.svg';
+import LinkedinIcon from './assets/linkedin.svg';
 
-const Footer = () => {
+export default function Footer() {
   return (
     <FooterContainer>
       <TopSection>
@@ -58,5 +57,3 @@ const Footer = () => {
     </FooterContainer>
   );
 };
-
-export default Footer;

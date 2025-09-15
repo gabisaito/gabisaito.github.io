@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { Box, Typography, Link, IconButton, Grid, Stack } from '@mui/material';
+import { Box, Typography, Stack } from '@mui/material';
 
-export const orangeBackground = '#F5B041';
-export const tealBackground = '#5D9C9C';
+export const orangeBackground = '#FBA63D';
+export const tealBackground = '#229C90';
 
 export const FooterContainer = styled(Box)`
   width: 100%;
