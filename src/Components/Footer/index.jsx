@@ -37,10 +37,10 @@ export default function Footer() {
         <Box sx={{ display: 'flex', alignItems: 'center', flexDirection: { xs: 'column', sm: 'row' } }}>
           <LogoImage src={NiloLogo} alt="Logo Nilo" />
           <SocialIcons direction="row" spacing={2}>
-            <IconButton color="inherit" aria-label="LinkedIn" href="https://www.linkedin.com/in/seu-perfil">
+            <IconButton color="inherit" aria-label="LinkedIn" href="https://www.linkedin.com/company/nilo-educacao/">
               <img src={LinkedinIcon} alt="LinkedIn" style={{ width: 24, height: 24 }} />
             </IconButton>
-            <IconButton color="inherit" aria-label="Instagram" href="https://www.instagram.com/seu-perfil">
+            <IconButton color="inherit" aria-label="Instagram" href="https://www.instagram.com/niloeduc/">
               <img src={InstagramIcon} alt="Instagram" style={{ width: 24, height: 24 }} />
             </IconButton>
           </SocialIcons>
