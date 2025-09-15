@@ -50,7 +50,7 @@ export default function Footer() {
             Em parceria com © GEDUC Brasil
           </PartnershipText>
           <Typography variant="body2">
-            niloeducacao@gmail.com
+            <a href="mailto:niloeducbr@gmail.com" style={{ textDecoration: 'none', color: 'inherit' }}>niloeducbr@gmail.com</a>
           </Typography>
         </Box>
       </BottomSection>
