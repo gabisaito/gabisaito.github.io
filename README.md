@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# nilo
+Nilo é uma plataforma focada em desburocratizar a educação financeira no Brasil. Oferecemos uma metodologia prática com aulas teóricas e exercícios para finanças pessoais, além de notícias para manter o aprendizado continuado.
