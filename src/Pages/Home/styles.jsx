@@ -333,3 +333,110 @@ export const DetailsImage_b = styled.img`
     margin-top: 0;
   }
 `;
+
+/* Cards */
+export const cardBackground1_c = '#229C90';
+export const cardBackground3_c = '#303030';
+export const cardBackground2_c = '#196860';
+export const textColor_c = '#303030';
+export const highlightColor_c = '#FBA63D';
+export const cardTextColor_c = '#FFF6E1';
+
+export const LearningSectionContainer_c = styled(Box)`
+  width: 100%;
+  padding: 80px 20px;
+  background-color: #ffffffff;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  
+  @media (min-width: 900px) {
+    padding: 100px 60px;
+  }
+`;
+
+export const SectionTitle_c = styled(Typography)`
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  margin-bottom: 10px;
+  color: ${textColor_c};
+
+  @media (min-width: 600px) {
+    font-size: 2rem !important;
+  }
+  
+  @media (min-width: 900px) {
+    font-size: 2.5rem !important;
+  }
+`;
+
+export const SectionSubtitle_c = styled(Typography)`
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+  line-height: 1.5 !important;
+  margin-bottom: 20px !important; 
+  color: ${textColor_c};
+
+  @media (min-width: 600px) {
+    font-size: 1.2rem !important;
+    margin-bottom: 30px !important; 
+  }
+
+  @media (min-width: 900px) {
+    font-size: 1.4rem !important;
+    margin-bottom: 40px !important;
+  }
+`;
+
+export const CardsGrid_c = styled(Box)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+
+  @media (min-width: 900px) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    align-items: stretch; 
+  }
+`;
+
+export const Card_c = styled(Box)`
+  width: 100%;
+  max-width: 400px; 
+  padding: 40px !important;
+  border-radius: 8px;
+  color: ${cardTextColor_c};
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: ${({ background }) => background};
+`;
+
+export const CardTitle_c = styled(Typography)`
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  line-height: 1 !important; 
+  margin-bottom: 10px !important;
+  color: ${highlightColor_c};
+`;
+
+export const CardText_c = styled(Typography)`
+  font-size: 0.7rem !important; 
+  line-height: 1; 
+  margin-bottom: 10px !important; 
+
+  @media (min-width: 600px) {
+    font-size: 0.9rem !important;
+  }
+
+  @media (min-width: 900px) {
+    font-size: 0.9rem !important;
+  }
+`;
+
+export const CardHighlight_c = styled.span`
+  font-weight: 700 !important;
+  color: ${({ orange }) => (orange ? highlightColor_c : 'inherit')};
+`;
