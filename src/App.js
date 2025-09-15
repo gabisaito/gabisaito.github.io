@@ -10,6 +10,21 @@ const theme = createTheme({
   typography: {
     fontFamily: 'Poppins, sans-serif',
   },
+  palette: {
+    primary: {
+      main: '#FBA63D', 
+    },
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          fontFamily: 'Poppins, sans-serif',
+          textTransform: 'none', 
+        },
+      },
+    },
+  },
 });
 
 function App() {
