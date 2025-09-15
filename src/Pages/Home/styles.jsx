@@ -214,3 +214,122 @@ export const StatDescription = styled(Typography)`
     font-size: 1rem !important;
   }
 `;
+
+
+/* Benefits */
+const textColor_b = '#196860';
+const listItemColor_b = '#303030';
+
+export const BenefitContainer_b = styled(Box)`
+  width: 100%;
+  padding: 60px 10px; 
+  background-color: #FFF6E1;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  
+  @media (min-width: 600px) {
+    padding: 80px 30px; 
+  }
+
+  @media (min-width: 900px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 60px;
+  }
+`;
+
+export const TextContent_b = styled(Box)`
+  text-align: left;
+  max-width: 100%;
+  margin: 0 auto;
+
+  @media (min-width: 900px) {
+    flex: 1;
+    margin: 0;
+    max-width: 60%;
+    padding-right: 40px;
+  }
+`;
+
+export const MainTitle_b = styled(Typography)`
+  font-size: 1.5rem !important;;
+  font-weight: 700 !important;;
+  line-height: 1.2 !important;;
+  margin-bottom: 10px;
+  color: ${textColor_b};
+
+  @media (min-width: 600px) {
+    font-size: 2rem !important;;
+  }
+  
+  @media (min-width: 900px) {
+    font-size: 2.5rem !important;;
+  }
+`;
+
+export const SubTitle_b = styled(Typography)`
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+  line-height: 1.5 !important;
+  margin-bottom: 20px !important; 
+  color: ${textColor_b};
+
+  @media (min-width: 600px) {
+    font-size: 1.2rem !important;
+    margin-bottom: 30px !important; 
+  }
+
+  @media (min-width: 900px) {
+    font-size: 1.4rem !important;
+    margin-bottom: 40px !important;
+  }
+`;
+
+export const BenefitList_b = styled.ul`
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+`;
+
+export const BenefitItem_b = styled.li`
+  line-height: 1;
+  margin-bottom: 20px;
+  color: ${listItemColor_b};
+
+  & span {
+    font-size: 0.7rem; /* mobile */
+  }
+
+  @media (min-width: 600px) {
+    & span {
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 900px) {
+    & span {
+      font-size: 1.1rem;
+    }
+  }
+`;
+
+export const CheckIcon_b = styled.span`
+  color: ${textColor_b};
+  margin-right: 10px;
+`;
+
+export const HighlightText_b = styled.span`
+  font-weight: bold;
+`;
+
+export const DetailsImage_b = styled.img`
+  display: none;
+  
+  @media (min-width: 900px) {
+    display: block;
+    height: 400px;
+    width: auto;
+    margin-top: 0;
+  }
+`;
