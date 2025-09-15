@@ -69,7 +69,7 @@ export default function Home() {
 
        <StatsContainer>
             <MainHeadline>
-                1 em 10 brasileiros não sabem como gerir suas finanças e dívidas
+                Apenas 16% dos brasileiros tiveram educação financeira na escola ou faculdade.
             </MainHeadline>
 
             <SubHeadline>
