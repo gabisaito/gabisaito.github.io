@@ -1,8 +1,7 @@
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
 
-import React, { useState } from 'react';
-import { Box, Typography } from '@mui/material';
+import { useState } from 'react';
 
 import {
   PageContainer,
@@ -41,8 +40,6 @@ export default function Login() {const [email, setEmail] = useState('');
       setError('Por favor, preencha todos os campos.');
     } else {
       setError('E-mail ou senha inválidos.');
-      // Simular login, redirecionamento, etc.
-      console.log('Dados do formulário:', { email, password });
     }
   };
 
