@@ -8,7 +8,7 @@ export const NotFoundContainer = styled('div')(({ theme }) => ({
   height: '100vh',
   textAlign: 'center',
   padding: '0 20px',
-  fontFamily: 'Coolvetica, sans-serif',
+  fontFamily: 'Poppins, sans-serif',
   color: '#333',
   backgroundColor: '#f8f9fa',
 
@@ -20,7 +20,7 @@ export const NotFoundContainer = styled('div')(({ theme }) => ({
 export const ErrorCode = styled('h1')(({ theme }) => ({
   fontSize: '120px', 
   margin: '0',
-  color: '#E91E63',
+  color: '#229C90',
 
   [theme.breakpoints.down('md')]: {
     fontSize: '90px',
@@ -61,7 +61,7 @@ export const Description = styled('p')(({ theme }) => ({
 export const HomeLink = styled('a')(({ theme }) => ({
   marginTop: '30px',
   padding: '12px 25px', 
-  backgroundColor: '#60116A',
+  backgroundColor: '#196860',
   color: '#fff',
   textDecoration: 'none',
   borderRadius: '5px',
@@ -69,7 +69,7 @@ export const HomeLink = styled('a')(({ theme }) => ({
   fontSize: '16px', 
 
   '&:hover': {
-    backgroundColor: '#FDB5D0',
+    backgroundColor: '#FBA63D',
   },
 
   [theme.breakpoints.down('sm')]: {

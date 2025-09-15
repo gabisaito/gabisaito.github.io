@@ -12,7 +12,6 @@ function App() {
       <GlobalStyles/>
       <CssBaseline />
       <HashRouter>
-        <GAListener />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/ferramentas' element={<Features />} />
