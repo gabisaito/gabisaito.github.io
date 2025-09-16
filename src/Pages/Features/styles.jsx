@@ -195,3 +195,15 @@ export const FeatureDescription_f = styled(Typography)`
     font-size: 0.75rem !important;
   }
 `;
+
+export const TopInvestImg = styled.img`
+  max-width: 10% !important;
+
+    @media (max-width: 960px) {
+    max-width: 10% !important;
+  }
+
+  @media (max-width: 600px) {
+    max-width: 25% !important;
+  }
+`;

@@ -53,7 +53,7 @@ export default function Home() {
 
             <HeroContainer>
                 <TextSection>
-                    <ImpactBadge src={ImpactoImage} alt="+4k de jovens impactados" />
+                    <ImpactBadge src={ImpactoImage} alt="mais de 2 mil de jovens impactados" />
                     <MainTitle>
                         Educação financeira pra quem quer juntar a <Highlight>teoria com a prática!</Highlight>
                     </MainTitle>
@@ -83,7 +83,7 @@ export default function Home() {
                     <StatDescription>de mentoria</StatDescription>
                 </StatItem>
                 <StatItem>
-                    <StatNumber>+4000</StatNumber>
+                    <StatNumber>+2500</StatNumber>
                     <StatDescription>jovens impactados</StatDescription>
                 </StatItem>
                 <StatItem>

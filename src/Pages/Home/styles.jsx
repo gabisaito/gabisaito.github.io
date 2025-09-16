@@ -222,7 +222,7 @@ const listItemColor_b = '#303030';
 
 export const BenefitContainer_b = styled(Box)`
   width: 100%;
-  padding: 60px 10px; 
+  padding: 60px 20px; 
   background-color: #FFF6E1;
   text-align: center;
   font-family: 'Poppins', sans-serif;

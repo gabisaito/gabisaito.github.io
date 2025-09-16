@@ -9,9 +9,8 @@ import {
   PageContainer,
   ContentContainer,
   SectionTitle,
-  DescriptionText,
+  TopInvestImg,
   ModulesGrid,
-
   Section_f,
   TextContent_f,
   FeatureList_f,
@@ -43,6 +42,7 @@ import Icon4 from './assets/noticias-icone.png';
 import Icon5 from './assets/mapeamento-icone.png';
 import Tela1 from './assets/tela1.jpg';
 import Tela2 from './assets/tela2.jpg';
+import TopInvest from './assets/topinvest.png';
 
 const modulesData = [
   { id: 1, moduleNumber: 1, imageUrl: module1Image, title: 'Sistema Financeiro Nacional e Participantes do Mercado', subtitle: 'Estrutura, instituições e o papel dos agentes do mercado financeiro.' },
@@ -61,7 +61,8 @@ export default function Features() {
       <Header />
       <ContentContainer>
         <SectionTitle>Funcionalidades que se encaixam na sua rotina.</SectionTitle>
-        <SubSectionTitle_f>Explore artigos e conteúdos baseados nos oito módulos da ANBIMA.</SubSectionTitle_f>
+        <TopInvestImg src={TopInvest}/>
+        <SubSectionTitle_f>Explore artigos e conteúdos baseados nos oito módulos da ANBIMA, e simulados da TopInvest.</SubSectionTitle_f>
           <SubSectionSubtitle_f>
             Em cada módulo, você terá materiais teóricos, lições curtas e prática gameficada para incentivar a constância e tornar o aprendizado mais envolvente, mesmo para quem tem pouco tempo.
           </SubSectionSubtitle_f>
