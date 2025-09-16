@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9d1d5fd6.css",
-    "main.js": "/static/js/main.bed108c9.js",
+    "main.js": "/static/js/main.22750725.js",
     "static/media/module1.jpg": "/static/media/module1.3fb3bf087d5bc382ff46.jpg",
     "static/media/module2.jpg": "/static/media/module2.a1ffa386c304f4b028ab.jpg",
     "static/media/module3.jpg": "/static/media/module3.0ce57599cf097f9d1ff9.jpg",
@@ -12,9 +12,9 @@
     "static/media/tablet.png": "/static/media/tablet.dcafb479e6cb21033941.png",
     "static/media/module8.jpg": "/static/media/module8.767e29aa88703bbe369c.jpg",
     "static/media/tela2.jpg": "/static/media/tela2.da9f092e1a65264aca2a.jpg",
-    "static/media/tela1.jpg": "/static/media/tela1.8f367b8075a5f34a2617.jpg",
+    "static/media/tela1.jpg": "/static/media/tela1.f2f731f56bbca8378f7f.jpg",
     "static/media/os.png": "/static/media/os.b30f87acf153254b2fba.png",
-    "static/media/jovens.png": "/static/media/jovens.56b8c78f6104bc924b21.png",
+    "static/media/jovens.png": "/static/media/jovens.da5f5c12de2baafefcbe.png",
     "static/media/logo.png": "/static/media/logo.53df1c8c83e1a22a6141.png",
     "static/media/poppins-devanagari-400-normal.woff": "/static/media/poppins-devanagari-400-normal.421fe9869ff4b58e2d7b.woff",
     "static/media/poppins-devanagari-500-normal.woff": "/static/media/poppins-devanagari-500-normal.6b76e7a3d1cf1d155387.woff",
@@ -37,15 +37,15 @@
     "static/media/poppins-latin-ext-500-normal.woff2": "/static/media/poppins-latin-ext-500-normal.fea4f3e65d3c3d8ebc84.woff2",
     "static/media/poppins-latin-ext-700-normal.woff2": "/static/media/poppins-latin-ext-700-normal.51cc1e159ae5f0b8ec5c.woff2",
     "static/media/instagram.svg": "/static/media/instagram.340171bd2b2845687b16348fab8b6d96.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.12c4a13d7245d393d8553bd0eb5c1f94.svg",
     "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.12c4a13d7245d393d8553bd0eb5c1f94.svg",
     "static/media/lock-icon.svg": "/static/media/lock-icon.1a59173cd42fae0f88a42131e87113e4.svg",
     "static/media/email-icon.svg": "/static/media/email-icon.12eb48d0c2fcb170945dd3261be4be1d.svg",
     "main.9d1d5fd6.css.map": "/static/css/main.9d1d5fd6.css.map",
-    "main.bed108c9.js.map": "/static/js/main.bed108c9.js.map"
+    "main.22750725.js.map": "/static/js/main.22750725.js.map"
   },
   "entrypoints": [
     "static/css/main.9d1d5fd6.css",
-    "static/js/main.bed108c9.js"
+    "static/js/main.22750725.js"
   ]
 }
