@@ -1,6 +1,5 @@
 {
   "name": "nilo",
-  "homepage": "https://gabisaito.github.io/nilo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
