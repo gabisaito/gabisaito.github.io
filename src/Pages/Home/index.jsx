@@ -83,7 +83,7 @@ export default function Home() {
                     <StatDescription>de mentoria</StatDescription>
                 </StatItem>
                 <StatItem>
-                    <StatNumber>+2500</StatNumber>
+                    <StatNumber>+3500</StatNumber>
                     <StatDescription>jovens impactados</StatDescription>
                 </StatItem>
                 <StatItem>
