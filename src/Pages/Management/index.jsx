@@ -202,10 +202,10 @@ export default function FinancialManagementPage() {
                         <h2 style={styles.sectionTitle}>Adicionar eventos</h2>
                         <form style={styles.form} onSubmit={handleAddEvent}>
                             <div style={styles.formRow}>
-                                <div style={styles.formGroup}><label style={styles.formLabel}>Valor do evento:</label><input type="number" style={styles.formInput} placeholder="65,90" value={valor} onChange={e => setValor(e.target.value)} /></div>
+                                <div style={styles.formGroup}><label style={styles.formLabel}>Valor do evento:</label><input type="number" style={styles.formInput} placeholder="0,0" value={valor} onChange={e => setValor(e.target.value)} /></div>
                                 <div style={styles.formGroup}><label style={styles.formLabel}>Tipo de evento:</label><select style={styles.formInput} value={tipoEvento} onChange={e => { setTipoEvento(e.target.value); setCategoria(CATEGORIES[e.target.value][0]); }}><option value="gasto">Gastos e Saídas</option><option value="renda">Renda e Entradas</option></select></div>
                             </div>
-                            <div style={styles.formGroup}><label style={styles.formLabel}>Descrição:</label><input type="text" style={styles.formInput} placeholder="Outback" value={descricao} onChange={e => setDescricao(e.target.value)} /></div>
+                            <div style={styles.formGroup}><label style={styles.formLabel}>Descrição:</label><input type="text" style={styles.formInput} placeholder="Exemplo" value={descricao} onChange={e => setDescricao(e.target.value)} /></div>
                             <div style={styles.formGroup}><label style={styles.formLabel}>Categoria:</label><select style={styles.formInput} value={categoria} onChange={e => setCategoria(e.target.value)}>{CATEGORIES[tipoEvento].map(cat => <option key={cat} value={cat}>{cat}</option>)}</select></div>
                             <button type="submit" style={styles.formButton}>Adicionar evento</button>
                         </form>
