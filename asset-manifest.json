@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9d1d5fd6.css",
-    "main.js": "/static/js/main.57ebe77d.js",
+    "main.js": "/static/js/main.1d361015.js",
     "static/media/module1.jpg": "/static/media/module1.3fb3bf087d5bc382ff46.jpg",
     "static/media/module2.jpg": "/static/media/module2.a1ffa386c304f4b028ab.jpg",
     "static/media/module3.jpg": "/static/media/module3.0ce57599cf097f9d1ff9.jpg",
@@ -11,6 +11,7 @@
     "static/media/module5.jpg": "/static/media/module5.9613bf17467c66e9938f.jpg",
     "static/media/tablet.png": "/static/media/tablet.dcafb479e6cb21033941.png",
     "static/media/module8.jpg": "/static/media/module8.767e29aa88703bbe369c.jpg",
+    "static/media/aula-1.pdf": "/static/media/aula-1.ca838e9f16efb3b298c2.pdf",
     "static/media/tela2.jpg": "/static/media/tela2.da9f092e1a65264aca2a.jpg",
     "static/media/tela1.jpg": "/static/media/tela1.32c099921fce4957e5b3.jpg",
     "static/media/os.png": "/static/media/os.b30f87acf153254b2fba.png",
@@ -42,10 +43,10 @@
     "static/media/lock-icon.svg": "/static/media/lock-icon.1a59173cd42fae0f88a42131e87113e4.svg",
     "static/media/email-icon.svg": "/static/media/email-icon.12eb48d0c2fcb170945dd3261be4be1d.svg",
     "main.9d1d5fd6.css.map": "/static/css/main.9d1d5fd6.css.map",
-    "main.57ebe77d.js.map": "/static/js/main.57ebe77d.js.map"
+    "main.1d361015.js.map": "/static/js/main.1d361015.js.map"
   },
   "entrypoints": [
     "static/css/main.9d1d5fd6.css",
-    "static/js/main.57ebe77d.js"
+    "static/js/main.1d361015.js"
   ]
 }
