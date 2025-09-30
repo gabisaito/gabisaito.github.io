@@ -5,6 +5,10 @@ import Features from './Pages/Features';
 import NotFound from './Pages/NotFound';
 import { createTheme, ThemeProvider, CssBaseline } from '@mui/material';
 import { GlobalStyles } from '@mui/material';
+import TheoryPage from "./Pages/Theory";
+import QuizPage from "./Pages/Quiz";
+import FinancialManagementPage from "./Pages/Management";
+import NewsPage from "./Pages/News";
 
 const theme = createTheme({
   typography: {
@@ -42,6 +46,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path='/ferramentas' element={<Features />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/trilha-teorica' element={<TheoryPage />} />
+          <Route path='/praticar-quiz-modulo-1' element={<QuizPage />} />
+          <Route path='/gestao-financeira' element={<FinancialManagementPage />} />
+          <Route path='/noticias' element={<NewsPage />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </HashRouter>
