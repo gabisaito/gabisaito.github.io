@@ -46,10 +46,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path='/ferramentas' element={<Features />} />
           <Route path='/login' element={<Login />} />
-          {/* <Route path='/trilha-teorica' element={<TheoryPage />} />
+          <Route path='/trilha-teorica' element={<TheoryPage />} />
           <Route path='/praticar-quiz-modulo-1' element={<QuizPage />} />
           <Route path='/gestao-financeira' element={<FinancialManagementPage />} />
-          <Route path='/noticias' element={<NewsPage />} /> */}
+          <Route path='/noticias' element={<NewsPage />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </HashRouter>
